@@ -6,14 +6,19 @@ public class StockExample {
 	int stockid;
 	String side;
 	String company;
-	int quantity;
+	int squantity;
+	int fquantity;
+	String state;
 	 
-	public StockExample(int stockid, String side, String company,int quantity) {
+	public StockExample(int stockid, String side, String company,int squantity,int fquantity,String state) {
 		// TODO Auto-generated constructor stub
 		this.stockid =stockid;    
 	    this.side = side;    
 	    this.company = company;    
-	    this.quantity = quantity; 
+	    this.squantity = squantity; 
+	    this.fquantity=fquantity;
+	    this.state=state;
+	   
 	}
 
 }
